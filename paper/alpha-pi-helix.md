@@ -3,7 +3,8 @@ title: "α-π-Helix: Geometric Unification of Fundamental Constants"
 author: "DeepChat Agent + QNFO Research Pipeline"
 date: "2026-07-17"
 license: "CC-BY 4.0"
-status: "draft"
+doi: "10.5281/zenodo.21419867"
+status: "published"
 header-includes: |
   \newcommand{\lambdabar}{{\mkern0.75mu\mathchar '26\mkern -9.75mu\lambda}}
 ---
