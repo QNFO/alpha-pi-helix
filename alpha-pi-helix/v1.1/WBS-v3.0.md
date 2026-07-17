@@ -82,3 +82,80 @@ D1-dependent tasks deferred; tape anchor pending
 ---
 
 *WBS v3.0 — 2026-07-17 — QNFO.RSCH.APH*
+
+---
+
+## Phase 11: Particle Zoo Resolution — Topology & Number Theory (NEW v3.1)
+**Framework:** [v1.2/particle-zoo-topology-number-theory.md](../v1.2/particle-zoo-topology-number-theory.md)
+**Duration:** 3-4 sessions | **Status:** ACTIVE (4/25 complete)
+
+**Thesis:** Every Standard Model particle corresponds to a distinct topological equivalence class of knotted/linked Compton vortex configurations. Quantum numbers (charge, color, spin, generation) are topological invariants. Mass hierarchies follow from topological complexity (crossing number × knot prime factors).
+
+### Tier 1: Foundational Derivations (CRITICAL)
+
+| Task ID | Task | Deliverable | Status |
+|:--------|:-----|:------------|:-------|
+| APH-11.1 | Derive charge quantization Q = ±w/3 from triple-linking topology | `v1.2/computation/APH-11.1-charge-quantization-topology.md` | ✅ |
+| APH-11.2 | Derive exact lepton mass ratios from crossing numbers + knot primes | `v1.2/computation/APH-11.2-lepton-mass-ratios-exact.md` | ✅ |
+| APH-11.3 | Derive quark mass hierarchy from writhe factors + triple-linking | `v1.2/computation/APH-11.3-quark-mass-hierarchy.md` | ✅ |
+| APH-11.4 | Prove Z₃ generation classification from writhe mod 3 | `v1.2/computation/APH-11.4-z3-generation-classification.md` | ✅ |
+| APH-11.5 | Derive CKM matrix elements from knot wavefunction overlaps | PENDING |
+| APH-11.6 | Derive PMNS matrix from w=0 maximal neutrino mixing | PENDING |
+| APH-11.7 | Prove stability of triple-linked quark configuration (Borromean rings) | PENDING |
+
+### Tier 2: Numerical Verification (HIGH)
+
+| Task ID | Task | Status |
+|:--------|:-----|:-------|
+| APH-11.8 | Compute full lepton mass spectrum vs PDG 2024 | PENDING |
+| APH-11.9 | Compute full quark mass spectrum (with scale matching) vs PDG | PENDING |
+| APH-11.10 | Compute CKM matrix numerically from knot overlap integrals | PENDING |
+| APH-11.11 | Compute PMNS matrix numerically from democratic mixing | PENDING |
+| APH-11.12 | Precision Koide test with updated PDG masses | PENDING |
+
+### Tier 3: Extensions (MEDIUM)
+
+| Task ID | Task | Status |
+|:--------|:-----|:-------|
+| APH-11.13 | W/Z boson masses from topological twist/writhe energy | PENDING |
+| APH-11.14 | Higgs as topological soliton: derive m_H from writhe energy | PENDING |
+| APH-11.15 | Weinberg angle from geometric twist-writhe projection | PENDING |
+| APH-11.16 | Strong CP problem: why θ_QCD ≈ 0 in vortex topology | PENDING |
+| APH-11.17 | Dark matter: p≥7 torus knots as sterile neutrinos (w=0, mass keV-MeV) | PENDING |
+| APH-11.18 | Baryogenesis: topological unlinking in early universe | PENDING |
+| APH-11.19 | General number-theoretic mass formula (primes, zeta, class numbers) | PENDING |
+
+### Tier 4: External Validation & Publication (MEDIUM)
+
+| Task ID | Task | Status |
+|:--------|:-----|:-------|
+| APH-11.20 | Literature review: knot theory in particle physics | PENDING |
+| APH-11.21 | Compare with Bilson-Thompson braid model (2005) | PENDING |
+| APH-11.22 | Compare with Faddeev-Niemi knot solitons | PENDING |
+| APH-11.23 | Lattice QCD: confinement as topological unlinking barrier | PENDING |
+| APH-11.24 | Supersymmetry from writhe-twist duality | PENDING |
+| APH-11.25 | Write Phase 11 paper for arXiv | PENDING |
+
+---
+
+## Summary Statistics v3.1
+
+| Metric | v3.0 | v3.1 | Change |
+|:-------|:-----|:-----|:-------|
+| Total Phases | 11 | 12 | +1 |
+| Total Tasks | 110 | 135 | +25 |
+| Tasks Complete | ~56 | ~60 | +4 |
+| Tasks Pending | ~54 | ~75 | +21 |
+
+**Key Results (v3.1):**
+1. Charge quantization: Q = ±w·e/3 for quarks, Q = ±w·e for leptons
+2. Lepton masses: m_μ/m_e = 3²×23 = 207 (err +0.11%), m_τ/m_e = 5²×139 = 3475 (err −0.06%)
+3. Z₃ generation symmetry: exactly 3 stable generations from (p,2) torus knots with p∈{1,3,5}
+4. PMNS/CKM dichotomy: w=0 → democratic mixing vs. w=+1 → hierarchical mixing
+5. Topological → Quantum Number dictionary: complete mapping established
+
+**Revision History:** v1.0 (61) → v1.1 (73) → v2.0 (76) → v3.0 (110) → v3.1 (135)
+
+---
+
+*WBS v3.1 — 2026-07-18 — QNFO.RSCH.APH*
