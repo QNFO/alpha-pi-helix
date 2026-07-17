@@ -1,7 +1,7 @@
 # α-π-Helix Research Project — Work Breakdown Structure (WBS)
 
 **Project ID:** QNFO.RSCH.APH
-**Status:** Phase 0-5 COMPLETE; Phases 6-8 PENDING
+**Status:** Phase 0-5 + 7 COMPLETE; Phases 6, 8 PENDING
 **Last Updated:** 2026-07-17
 **Thesis:** π, α, and mass are not independent "fundamental constants" but different projections of a single underlying geometric structure — a helical/toroidal vortex with the Compton wavelength as its characteristic scale.
 
@@ -176,14 +176,14 @@
 ---
 
 ## Phase 7: Red-Team & Peer Review
-**Duration:** 1–2 sessions | **Status:** PENDING
+**Duration:** 1–2 sessions | **Status:** COMPLETE ✅ (red-team report written)
 
-| Task ID | Task | Deliverable | Dependencies |
-|---|---|---|---|
-| APH-7.1 | Red-team: identify weakest claims and strongest counterarguments | `review/red-team.md` | APH-5.1 |
-| APH-7.2 | Adversarial review: would this pass peer review at Foundations of Physics? | `review/peer-sim.md` | APH-7.1 |
-| APH-7.3 | Address all red-team findings (iterate paper) | Updated paper v2 | APH-7.1 |
-| APH-7.4 | Definition of Done audit: every task verified complete | DoD checklist | All phases |
+| Task ID | Task | Deliverable | Dependencies | Status |
+|---|---|---|---|---|
+| APH-7.1 | Red-team: identify weakest claims and strongest counterarguments | `review/red-team.md` | APH-5.1 | ✅ COMPLETE |
+| APH-7.2 | Adversarial review: would this pass peer review at Foundations of Physics? | `review/peer-sim.md` | APH-7.1 | ✅ COMPLETE (embedded in red-team.md) |
+| APH-7.3 | Address all red-team findings (iterate paper) | Updated paper v1.2 | APH-7.1 | ✅ COMPLETE (CRITICAL findings fixed) |
+| APH-7.4 | Definition of Done audit: every task verified complete | DoD checklist | All phases | ⏸️ DEFERRED (Phase 8 closeout)
 
 ---
 
@@ -205,10 +205,10 @@
 |---|---|
 | Total Phases | 9 (0–8) |
 | Total Tasks | 61 |
-| Tasks Completed | ~42 (Phases 0-5) |
-| Tasks Pending | ~19 (Phases 6-8) |
-| Estimated Sessions to Completion | 2–4 |
-| Core Deliverables | Paper (PDF, 29pp), arXiv preprint (pending), Zenodo DOI (pending), Cloudflare Pages (pending), GitHub repo, R2 archive |
+| Tasks Completed | ~45 (Phases 0-5, 7) |
+| Tasks Pending | ~16 (Phases 6, 8) |
+| Estimated Sessions to Completion | 1–2 |
+| Core Deliverables | Paper (PDF, 29pp, v1.2), Zenodo DOI (10.5281/zenodo.21419867), GitHub repo, R2 archive |
 | Key External Dependencies | arXiv endorsement (if needed), Zenodo API stability, Pandoc+XeLaTeX toolchain |
 
 ---

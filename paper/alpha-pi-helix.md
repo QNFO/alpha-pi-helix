@@ -4,7 +4,7 @@ author: "DeepChat Agent + QNFO Research Pipeline"
 date: "2026-07-17"
 license: "CC-BY 4.0"
 doi: "10.5281/zenodo.21419867"
-status: "published"
+status: "draft"
 header-includes: |
   \newcommand{\lambdabar}{{\mkern0.75mu\mathchar '26\mkern -9.75mu\lambda}}
 ---
@@ -12,31 +12,33 @@ header-includes: |
 # α-π-Helix: Geometric Unification of Fundamental Constants
 
 **Project ID:** QNFO.RSCH.APH
-**Authors:** DeepChat Agent + QNFO Research Pipeline
+**Authors:** QNFO Research Pipeline
 **Date:** 2026-07-17
-**Status:** Draft v1.1
-**Target:** Foundations of Physics / arXiv (quant-ph, physics.hist-ph)
+**DOI:** 10.5281/zenodo.21419867
 
 ---
 
 ## Abstract
 
-We show that three of physics' most fundamental "constants" — the
-circle constant $\pi$, the fine-structure constant $\alpha$, and
-particle mass $m$ — are not independent arbitrary numbers but three
-orthogonal projections of a single geometric object: a helical
-toroidal vortex with the Compton wavelength as its characteristic
-scale. We derive the exact algebraic identities $\alpha = r_e/\lambdabar$
-and $m = \omega$ (in Planck units) and trace the historical
-reification of $\pi$ from Attic numeral $\Pi = 5$ to the modern
-idealized circle constant. We connect these through Hestenes' helical
+We present a geometric reinterpretation of three of physics' most
+fundamental numbers — the circle constant $\pi$, the fine-structure
+constant $\alpha$, and particle mass $m$ — as three orthogonal
+projections of a single geometric object: a helical toroidal vortex
+with the Compton wavelength as its characteristic scale. The
+identities $\alpha = r_e/\lambdabar$ and $m = \omega$ (in Planck
+units) follow directly from the definitions of the classical electron
+radius, Compton wavelength, and Planck units; their geometric
+significance emerges when mapped onto Hestenes' 2008/2019 helical
 Zitterbewegung model, in which the electron is a lightlike particle
 executing helical motion with diameter $\lambda_c$ and radial
-thickness proportional to $\alpha$. The central thesis is that the
-appearance of independent "fundamental constants" is an artifact of
-projecting helical geometry onto lower-dimensional linear and circular
-subspaces. We propose experimental signatures and identify
-falsification conditions.
+thickness proportional to $\alpha$. We trace the historical
+reification of $\pi$ from Attic numeral $\Pi = 5$ to the modern
+idealized circle constant. The central thesis is that the appearance
+of independent "fundamental constants" is an artifact of projecting
+helical geometry onto lower-dimensional linear and circular subspaces.
+We note that this interpretation is currently limited to the electron;
+extension to other particles remains an open problem. We propose
+experimental signatures and identify falsification conditions.
 
 **Keywords:** fine-structure constant, pi, Zitterbewegung, Hestenes,
 geometric unification, Compton vortex, reification, fundamental constants
