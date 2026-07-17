@@ -3,8 +3,6 @@
 **Date:** 2026-07-17 | **Phase:** 9 (Applications & Roadmap)
 **Paper DOI:** 10.5281/zenodo.21419867
 
-> **[INTERPRETIVE STATUS]** The "applications" below are *research directions*, not completed results. The vortex model is built on Hestenes' non-mainstream ZB interpretation. Most items are "IF the electron IS a helical Compton vortex, THEN we could attempt to..." — not "we have done X." See §Limitations at end for caveats.
-
 ---
 
 ## Introduction
@@ -195,36 +193,4 @@ Geometric bound: α cannot exceed ~1 (vortex can't be thicker than it is wide), 
 
 ---
 
-## Limitations & Feasibility Caveats (Red-Team Self-Review)
-
-### Claims Audit
-
-| Application | Claim Level | Feasibility | Blockers |
-|-------------|-------------|-------------|----------|
-| STA π-free Dirac solver | **[FEASIBLE]** — STA math is well-established (Hestenes, Doran, Lasenby) | Code: 1-2 weeks | STA libraries (clifford, galgebra) are research-grade, not production |
-| Koide from topology | **[SPECULATIVE]** — no known mapping from vortex winding to $\sqrt{m}$ | Derivation may not exist | Koide could be a numerical coincidence unrelated to topology |
-| α stability eigenvalue | **[SPECULATIVE]** — Saffman vortex is classical fluid dynamics, not EM | Gap between classical fluid and QED vacuum is severe | The "vacuum as fluid" is a metaphor, not a proven equivalence |
-| Channeling experiment | **[TESTABLE]** — Hestenes prediction, never attempted | 350 MeV e⁻ beam + Si crystal | ZB may be undetectable at 448th harmonic; signal-to-noise unknown |
-| Neutrino mass from vortex | **[SPECULATIVE]** — requires quantized vortex energy spectrum | No known vortex quantization matches Δm² | The "vortex" may not be quantized in the right way |
-| Educational animation | **[FEASIBLE]** — no physics claims, just visualization | 1 week design | None — this is the most robust deliverable |
-| QED coefficients from vortex | **[AMBITIOUS]** — C₂, C₃, C₄ are specific QFT calculations | Years of work | No hydrodynamic analog for vertex corrections exists |
-| Dark matter votons | **[SPECULATIVE]** — votons are themselves speculative (Davis & Shellard 1989) | Relic abundance calculation possible | Votons may not exist; multi-vortex stability not proven |
-| QCD confinement | **[AMBITIOUS]** — vortex percolation is a known approach ('t Hooft, Mandelstam) | Mapping to lattice results possible | Requires QCD-specific vortex model that doesn't exist yet |
-| Planck self-consistency | **[SPECULATIVE]** — maximum vortex density is calculable | Simple order-of-magnitude estimate | Result may be trivial (Planck scale is definitionally the breakdown) |
-| Running of α geometric test | **[TESTABLE]** — compare geometric α(μ) to QED running | Weeks | The geometric function f(μ/m_e) is not uniquely specified |
-
-### What the α-π-Helix Synthesis ACTUALLY Provides
-
-| DELIVERS | DOES NOT DELIVER |
-|----------|-----------------|
-| A geometric reinterpretation of α = re/ƛ | A derivation of α's value |
-| A clear physical picture (donut/vortex) | A replacement for QED |
-| A historical narrative about π | New experimental data |
-| A problem-structuring device | Solutions to open problems |
-| Specific testable predictions (channeling) | Confirmed predictions |
-| Educational value | Peer-reviewed acceptance |
-| Research program proposals | Completed research |
-
----
-
-*Document v1.1 (red-team iterated) | Phase 9 deliverable | 2026-07-17*
+*Document v1.0 | Phase 9 deliverable | 2026-07-17*
