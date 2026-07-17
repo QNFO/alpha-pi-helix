@@ -1,0 +1,107 @@
+% Derivation: Mass-Frequency Identity (m = ω in Planck units)
+% Project: α-π-Helix (QNFO.RSCH.APH)
+% Date: 2026-07-17
+% Status: Verified — exact algebraic identity
+
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+
+\section{Derivation: Mass is Angular Frequency in Planck Units}
+
+\subsection{Fundamental Relations}
+
+The Planck-Einstein relation connects energy and angular frequency:
+\begin{equation}
+E = \hbar \omega
+\end{equation}
+
+The mass-energy equivalence (special relativity):
+\begin{equation}
+E = m c^2
+\end{equation}
+
+\subsection{Equating}
+
+\begin{align}
+\hbar \omega &= m c^2 \\
+m &= \frac{\hbar}{c^2} \omega
+\end{align}
+
+In SI units, mass and angular frequency differ by the conversion factor
+$\hbar/c^2 \approx 1.173 \times 10^{-51}\ \text{kg·s}$.
+
+\subsection{Planck Units}
+
+In Planck units, we set:
+\begin{equation}
+\hbar = c = G = 1
+\end{equation}
+
+Under this normalization:
+\begin{equation}
+\boxed{m = \omega}
+\end{equation}
+
+Mass IS angular frequency. The "rest mass" of a particle is the
+angular frequency of its internal oscillation, measured in Planck units.
+
+\subsection{The Compton Relations}
+
+The Compton angular frequency:
+\begin{equation}
+\omega_C = \frac{m c^2}{\hbar}
+\end{equation}
+
+In Planck units: $\omega_C = m$ (since $c = \hbar = 1$).
+
+The reduced Compton wavelength:
+\begin{equation}
+\bar{\lambda} = \frac{\hbar}{m c}
+\end{equation}
+
+In Planck units: $\bar{\lambda} = 1/m = 1/\omega_C$.
+
+\subsection{The Zitterbewegung Connection}
+
+The Dirac equation gives ZB angular frequency:
+\begin{equation}
+\omega_{ZB} = \frac{2 m c^2}{\hbar} = 2\omega_C
+\end{equation}
+
+In Planck units: $\omega_{ZB} = 2m$.
+
+So the ZB frequency IS (twice) the mass. The "trembling motion" is not
+an extra property — it IS the mass viewed through $E = \hbar\omega$.
+
+\subsection{α as Phase Advance}
+
+Since $r_e = \alpha \bar{\lambda}$ and $\bar{\lambda} = c/\omega_C$:
+\begin{align}
+\alpha &= \frac{r_e}{\bar{\lambda}}
+       = r_e \cdot \frac{\omega_C}{c}
+       = \frac{r_e / c}{1 / \omega_C}
+\end{align}
+
+α is the ratio of the light-crossing time of the classical electron
+radius to the Compton period. Or: the phase advance of the ZB
+oscillation over the electromagnetic self-energy scale.
+
+\subsection{Summary Table}
+
+\begin{center}
+\begin{tabular}{lcc}
+\hline
+Quantity & SI & Planck Units \\
+\hline
+Mass $m$ & $m$ (kg) & $m = \omega$ \\
+Compton frequency $\omega_C$ & $mc^2/\hbar$ (rad/s) & $m$ \\
+ZB frequency $\omega_{ZB}$ & $2mc^2/\hbar$ (rad/s) & $2m$ \\
+Reduced Compton $\bar{\lambda}$ & $\hbar/(mc)$ (m) & $1/m$ \\
+Classical radius $r_e$ & $\alpha\bar{\lambda}$ (m) & $\alpha/m$ \\
+Bohr radius $a_0$ & $\bar{\lambda}/\alpha$ (m) & $1/(\alpha m)$ \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document}
