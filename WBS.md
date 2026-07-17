@@ -1,7 +1,7 @@
 # α-π-Helix Research Project — Work Breakdown Structure (WBS)
 
 **Project ID:** QNFO.RSCH.APH
-**Status:** Phase 0-5 + 7 COMPLETE; Phases 6, 8 PENDING
+**Status:** Phase 0-7 COMPLETE; Phase 9 ACTIVE; Phase 8 PENDING
 **Last Updated:** 2026-07-17
 **Thesis:** π, α, and mass are not independent "fundamental constants" but different projections of a single underlying geometric structure — a helical/toroidal vortex with the Compton wavelength as its characteristic scale.
 
@@ -162,16 +162,16 @@
 ---
 
 ## Phase 6: Infrastructure & Archive
-**Duration:** 1 session | **Status:** IN PROGRESS
+**Duration:** 1 session | **Status:** COMPLETE ✅
 
 | Task ID | Task | Deliverable | Dependencies | Status |
 |---|---|---|---|---|
-| APH-6.1 | Initialize GitHub repo: qnfo/alpha-pi-helix | Repo with README, LICENSE (CC-BY 4.0), .gitignore | Phase 0 | PENDING |
-| APH-6.2 | Upload all deliverables to GitHub | Full commit history | APH-6.1 | PENDING |
-| APH-6.3 | Create R2 bucket: alpha-pi-helix | R2 bucket with archival copies | APH-6.1 | PENDING |
-| APH-6.4 | Sync R2 ↔ GitHub (bidirectional) | Redundant backup | APH-6.2, APH-6.3 | PENDING |
-| APH-6.5 | Register all resources in D1 portfolio-state | D1 audit record | APH-6.1–6.4 | PENDING |
-| APH-6.6 | Generate Zenodo provenance bundle (all notes, derivations, data) | `provenance/` directory → Zenodo | Phase 5 | PENDING |
+| APH-6.1 | Initialize GitHub repo: QNFO/alpha-pi-helix | Repo with README, LICENSE (CC-BY 4.0), .gitignore | Phase 0 | ✅ COMPLETE |
+| APH-6.2 | Upload all deliverables to GitHub | Full commit history (5 commits, branch feature/v1.1-sync) | APH-6.1 | ✅ COMPLETE |
+| APH-6.3 | Create R2 archive in qnfo-releases bucket | R2: qnfo-releases/alpha-pi-helix/v1.1/ with all files | APH-6.1 | ✅ COMPLETE |
+| APH-6.4 | Sync R2 ↔ GitHub (bidirectional) | Redundant backup | APH-6.2, APH-6.3 | ✅ COMPLETE |
+| APH-6.5 | Register all resources in D1 portfolio-state | D1 audit record | APH-6.1–6.4 | ⏸️ DEFERRED (Phase 8 closeout) |
+| APH-6.6 | Generate Zenodo provenance bundle (all notes, derivations, data) | PROVENANCE-BUNDLE.zip → Zenodo | Phase 5 | ✅ COMPLETE |
 
 ---
 
@@ -199,17 +199,37 @@
 
 ---
 
+## Phase 9: Applications & Research Roadmap
+**Duration:** Ongoing | **Status:** ACTIVE (applications catalog written)
+
+| Task ID | Task | Deliverable | Dependencies | Status |
+|---|---|---|---|---|
+| APH-9.1 | Catalog practical applications (computational, pedagogical, experimental) | `applications/practical-applications.md` | Phases 0-7 | ✅ COMPLETE |
+| APH-9.2 | STA π-free Dirac solver (numerical precision comparison) | Python code + benchmarks | APH-9.1 | PENDING |
+| APH-9.3 | Koide formula from vortex topology | Derivation | APH-9.1 | PENDING |
+| APH-9.4 | α stability eigenvalue calculation (Saffman vortex analog) | Derivation + simulation | APH-9.1 | PENDING |
+| APH-9.5 | Channeling experiment protocol (350 MeV e⁻ in Si) | Experimental proposal draft | APH-9.1 | PENDING |
+| APH-9.6 | Neutrino mass from quantized vortex states | Derivation | APH-9.1 | PENDING |
+| APH-9.7 | Educational animation (α as donut aspect ratio) | Video/animation | APH-9.1 | PENDING |
+| APH-9.8 | QED coefficients from vortex hydrodynamics | Derivation (C₂, C₃) | APH-9.1 | PENDING |
+| APH-9.9 | QCD confinement from vortex percolation | Theory + lattice comparison | APH-9.1 | PENDING |
+| APH-9.10 | Dark matter voton relic abundance | Cosmological calculation | APH-9.1 | PENDING |
+| APH-9.11 | Planck self-consistency bound | Derivation | APH-9.1 | PENDING |
+| APH-9.12 | Running of α geometric test | Comparison with QED | APH-9.1 | PENDING |
+
+---
+
 ## Summary Statistics
 
 | Metric | Count |
 |---|---|
-| Total Phases | 9 (0–8) |
-| Total Tasks | 61 |
-| Tasks Completed | ~45 (Phases 0-5, 7) |
-| Tasks Pending | ~16 (Phases 6, 8) |
-| Estimated Sessions to Completion | 1–2 |
-| Core Deliverables | Paper (PDF, 29pp, v1.2), Zenodo DOI (10.5281/zenodo.21419867), GitHub repo, R2 archive |
-| Key External Dependencies | arXiv endorsement (if needed), Zenodo API stability, Pandoc+XeLaTeX toolchain |
+| Total Phases | 10 (0–9) |
+| Total Tasks | 73 |
+| Tasks Completed | ~52 (Phases 0-7, APH-6.x, APH-9.1) |
+| Tasks Pending | ~21 (Phase 8, APH-9.2–9.12) |
+| Estimated Sessions to Completion | 2–5 |
+| Core Deliverables | Paper v1.2 (PDF, 29pp), Red-team report, Applications catalog, Zenodo DOI (10.5281/zenodo.21419867), GitHub repo, R2 archive |
+| Key External Dependencies | Zenodo API, experimental collaboration for channeling, STA numerical libraries |
 
 ---
 
@@ -218,9 +238,9 @@
 ```
 Phase 0 (Infra) → Phase 1 (History) → Phase 2 (Math) → Phase 3 (Physics)
                                                     ↘
-                                              Phase 4 (Synthesis) → Phase 5 (Publication) → Phase 7 (Review) → Phase 8 (Closeout)
-                                                                           ↘
-                                                                     Phase 6 (Archive, parallel with 5 & 7)
+                                              Phase 4 (Synthesis) → Phase 5 (Publication) → Phase 7 (Review) → Phase 9 (Applications)
+                                                                           ↘                                         ↘
+                                                                     Phase 6 (Archive) ✅                  Phase 8 (Closeout)
 ```
 
 ---
