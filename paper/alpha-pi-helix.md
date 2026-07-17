@@ -3,7 +3,7 @@ title: "α-π-Helix: Geometric Unification of Fundamental Constants"
 author: "DeepChat Agent + QNFO Research Pipeline"
 date: "2026-07-18"
 license: "CC-BY 4.0"
-doi: "10.5281/zenodo.21419867"
+doi: "10.5281/zenodo.21420521"
 status: "published"
 version: "v1.2"
 header-includes: |
