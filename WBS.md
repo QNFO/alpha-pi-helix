@@ -1,7 +1,7 @@
 # α-π-Helix Research Project — Work Breakdown Structure (WBS)
 
 **Project ID:** QNFO.RSCH.APH
-**Status:** Phase 0 — Planning
+**Status:** Phase 0 — Infrastructure COMPLETE; Phase 1–3 Research DONE; Phases 4–8 PENDING
 **Last Updated:** 2026-07-17
 **Thesis:** π, α, and mass are not independent "fundamental constants" but different projections of a single underlying geometric structure — a helical/toroidal vortex with the Compton wavelength as its characteristic scale.
 
@@ -10,14 +10,14 @@
 ## Phase 0: Project Infrastructure & Registration
 **Duration:** 1 session | **Status:** PENDING
 
-| Task ID | Task | Deliverable | Dependencies |
-|---|---|---|---|
-| APH-0.1 | Create project repo on GitHub (qnfo/alpha-pi-helix) | Initialized git repo with README, LICENSE, WBS | None |
-| APH-0.2 | Register project in D1 wbs_state | D1 record: QNFO.RSCH.APH | APH-0.1 |
-| APH-0.3 | Create R2 project archive bucket | R2 bucket: alpha-pi-helix | APH-0.1 |
-| APH-0.4 | Create Zenodo community/collection link | Zenodo community reserved | APH-0.1 |
-| APH-0.5 | Set up project citations template (BibTeX) | `references.bib` scaffold | None |
-| APH-0.6 | Define paper structure (sections, figures, notation) | `paper/outline.md` | APH-0.5 |
+| Task ID | Task | Deliverable | Dependencies | Status |
+|---|---|---|---|---|
+| APH-0.1 | Create project repo on GitHub (qnfo/alpha-pi-helix) | Initialized git repo with README, LICENSE, WBS | None | ✅ COMPLETE |
+| APH-0.2 | Register project in D1 wbs_state | D1 record: QNFO.RSCH.APH | APH-0.1 | ✅ COMPLETE |
+| APH-0.3 | Create R2 project archive bucket | R2 bucket: alpha-pi-helix | APH-0.1 | ✅ COMPLETE |
+| APH-0.4 | Create Zenodo community/collection link | Zenodo community reserved | APH-0.1 | ⏸️ DEFERRED (post-paper) |
+| APH-0.5 | Set up project citations template (BibTeX) | `references.bib` scaffold | None | ✅ COMPLETE |
+| APH-0.6 | Define paper structure (sections, figures, notation) | `paper/outline.md` | APH-0.5 | ✅ COMPLETE |
 
 ---
 
