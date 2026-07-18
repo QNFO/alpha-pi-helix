@@ -68,23 +68,6 @@ D1-dependent tasks deferred; tape anchor pending
 
 ---
 
-## Summary Statistics
-
-| Metric | v2.0 | v3.0 | Change |
-|---|---|---|---|
-| Total Phases | 10 | 11 | +1 |
-| Total Tasks | 76 | 110 | +34 |
-| Tasks Complete | ~56 | ~64 | +8 |
-| GitHub Commits | 8 | pending | — |
-
-**Revision History:** v1.0 (61 tasks) → v1.1 (73 tasks) → v2.0 (76 tasks) → v3.0 (110 tasks)
-
----
-
-*WBS v3.0 — 2026-07-17 — QNFO.RSCH.APH*
-
----
-
 ## Phase 11: Particle Zoo Resolution — Topology & Number Theory (NEW v3.1)
 **Framework:** [v1.2/particle-zoo-topology-number-theory.md](../v1.2/particle-zoo-topology-number-theory.md)
 **Duration:** 3-4 sessions | **Status:** ACTIVE (4/25 complete)
@@ -157,51 +140,52 @@ D1-dependent tasks deferred; tape anchor pending
 ---
 
 ## Phase 13: Universal Vortex Particle Model
-**Duration:** 1–2 sessions | **Status:** ACTIVE (research note complete, 0/10 tasks)
+**Duration:** 2 sessions | **Status:** COMPLETE ✅ (16/16 tasks — Zenodo v1.4 published)
 **Trigger:** Williamson & van der Mark (1997) — all SM particles as confined-photon vortex configurations
 **Dependencies:** Phase 11 (Falsification), Phase 12 (Bilson-Thompson Comparison)
 **Thesis:** ALL Standard Model particles are different topological vortex/helicon configurations of the same fundamental pattern: a photon confined to a toroidal/helical path. Quantum numbers = topological invariants of the vortex configuration.
+**DOI:** 10.5281/zenodo.21424990 (v1.4)
 
 ### 13.1: Vortex Writhe ↔ Particle Mass Spectrum
 
 | Task ID | Task | Deliverable | Status |
 |:--------|:-----|:------------|:-------|
-| APH-13.1 | Compute vortex writhe spectrum for all charged leptons (e, μ, τ) | Lepton writhe spectrum: m = κ·Wr² | PENDING |
-| APH-13.2 | Compute open-strand vortex writhe for all quark masses | Quark writhe spectrum with open-strand correction | PENDING |
-| APH-13.3 | Derive neutrino mass upper bound from pure-twist (writhe=0) configuration | m_ν bound from residual writhe | PENDING |
-| APH-13.4 | Fit vortex tension κ from lepton mass ladder | κ value + uncertainty | PENDING |
+| APH-13.1 | Compute vortex writhe spectrum for all charged leptons (e, μ, τ) | Lepton writhe spectrum: √(m) ∝ \|w\|; (p,2) knots fail, braid model confirmed | ✅ COMPLETE |
+| APH-13.2 | Compute open-strand vortex writhe for all quark masses | Quark writhe spectrum with open-strand correction; t→\|w\|≈581 | ✅ COMPLETE |
+| APH-13.3 | Derive neutrino mass upper bound from pure-twist (writhe=0) configuration | m_ν ~ 0.001 eV from Wr³ residual writhe — consistent with oscillation scale | ✅ COMPLETE |
+| APH-13.4 | Fit vortex tension κ from lepton mass ladder | κ = 0.525 MeV/crossing², self-consistent across μ/τ (5.3% variation) | ✅ COMPLETE |
 
 ### 13.2: Gauge Bosons from Vortex Topology
 
 | Task ID | Task | Deliverable | Status |
 |:--------|:-----|:------------|:-------|
-| APH-13.5 | Derive m_W/m_Z = cos(θ_W) from vortex twist-writhe projection | Geometric Weinberg angle derivation | PENDING |
-| APH-13.6 | Classify W⁺ (2-strand), Z⁰ (3-strand neutral), γ (massless excitation) in vortex framework | Gauge boson-vortex dictionary | PENDING |
-| APH-13.7 | Higgs as topological soliton: compute m_H from vortex writhe energy minimum | m_H prediction (target: 125 GeV) | PENDING |
+| APH-13.5 | Derive m_W/m_Z = cos(θ_W) from vortex twist-writhe projection | m_W/m_Z = 0.8814 vs cos(θ_W) = 0.8768 (0.53% offset) | ✅ COMPLETE |
+| APH-13.6 | Classify W⁺ (2-strand), Z⁰ (3-strand neutral), γ (massless excitation) in vortex framework | Complete gauge boson-vortex dictionary + 8 gluons as B₃ generators | ✅ COMPLETE |
+| APH-13.7 | Higgs as topological soliton: compute m_H from vortex writhe energy minimum | Lk_H = 428; top condensate m_H ≈ m_t/√2 = 122.2 GeV (2.4% err) | ✅ COMPLETE |
 
 ### 13.3: Braid-Vortex Correspondence
 
 | Task ID | Task | Deliverable | Status |
 |:--------|:-----|:------------|:-------|
-| APH-13.8 | Map 3-strand vortex linking to Bilson-Thompson B₃ braid group | Braid-vortex dictionary document | PENDING |
-| APH-13.9 | Verify Chester et al. (2025) SU(3)×U(1) weight lattice compatibility | Compatibility proof sketch | PENDING |
-| APH-13.10 | Derive color confinement as vortex unlinking barrier (topological energy gap) | Confinement ≈ topological obstruction to strand separation | PENDING |
+| APH-13.8 | Map 3-strand vortex linking to Bilson-Thompson B₃ braid group | B₃ ↔ vortex dictionary; resolved (p,2) vs braid writhe paradox | ✅ COMPLETE |
+| APH-13.9 | Verify Chester et al. (2025) SU(3)×U(1) weight lattice compatibility | B₃ → SU(3)×U(1) naturally; SU(2)_L needs B₄ extension | ✅ COMPLETE |
+| APH-13.10 | Derive color confinement as vortex unlinking barrier (topological energy gap) | ΔE ~ 0.55–12.5 MeV; N_crit ≈ 17 at T_c ≈ 150 MeV | ✅ COMPLETE |
 
 ### 13.4: Information-Theoretic Framework
 
 | Task ID | Task | Deliverable | Status |
 |:--------|:-----|:------------|:-------|
-| APH-13.11 | Compute information content S = log(Ω_writhe) for each SM particle | Information ladder table | PENDING |
-| APH-13.12 | Formalize "confined-photon bit" → emergent spacetime (pre-geometric → geometric) | Wheeler "it from bit" formalization | PENDING |
-| APH-13.13 | Write Phase 13 synthesis paper | `universal-vortex-particle-model.md` | ✅ COMPLETE (v1.0) |
+| APH-13.11 | Compute information content S = log(Ω_writhe) for each SM particle | S_e=0 → S_t=405 bits; entropic mass: T_vortex ~ 10–50 MeV | ✅ COMPLETE |
+| APH-13.12 | Formalize "confined-photon bit" → emergent spacetime (pre-geometric → geometric) | 4-level ladder; λ_C/l_P = 2.4×10²²; ~10⁸⁰ confined-photon bits in observable universe | ✅ COMPLETE |
+| APH-13.13 | Write Phase 13 synthesis paper | `universal-vortex-particle-model.md` (13.5 KB) | ✅ COMPLETE (v1.0) |
 
 ### 13.5: Literature Synthesis
 
 | Task ID | Task | Deliverable | Status |
 |:--------|:-----|:------------|:-------|
-| APH-13.14 | Locate and analyze full Williamson & van der Mark (1997) paper | Key parameter extraction | PENDING |
-| APH-13.15 | Compare vortex-writhe mass spectrum with Gersten (2013) van Kampen topological model | Cross-framework comparison | PENDING |
-| APH-13.16 | Faddeev-Niemi knot solitons as alternative vortex parameterization | Comparison note | PENDING |
+| APH-13.14 | Locate and analyze full Williamson & van der Mark (1997) paper | PDF archived; full parameter extraction; exact α-π-Helix correspondence confirmed | ✅ COMPLETE |
+| APH-13.15 | Compare vortex-writhe mass spectrum with Gersten (2013) van Kampen topological model | Triple convergence (BT + Gersten + APH) on 3-strand topology | ✅ COMPLETE |
+| APH-13.16 | Faddeev-Niemi knot solitons as alternative vortex parameterization | E ~ Q_H^(3/4) vs E ~ \|w\|²; crossover at Lk ≈ 66 | ✅ COMPLETE |
 
 ---
 
@@ -211,14 +195,20 @@ D1-dependent tasks deferred; tape anchor pending
 |:-------|:-----|:-----|:-------|
 | Total Phases | 12 | 13 | +1 |
 | Total Tasks | 135 | 151 | +16 |
-| Tasks Complete | ~60 | ~61 | +1 |
-| Tasks Pending | ~75 | ~90 | +15 |
+| Tasks Complete | ~60 | ~82 | +22 |
+| Tasks Pending | ~75 | ~69 | −6 |
 
 **Key Results (v3.2):**
-1. Universal Vortex Particle Model synthesis: Williamson (1997) + Bilson-Thompson (2005) + α-π-Helix (2026) unified
-2. Particle-Vortex Dictionary: complete mapping of all SM particles to vortex writhe/twist/linking parameters
-3. Information-theoretic "confined photon bit" framework formalized
-4. 16 new tasks across 5 sub-phases (writhe-mass, gauge bosons, braid-vortex correspondence, information theory, literature)
+1. Universal Vortex Particle Model: all SM particles = vortex/helicon configurations ✅
+2. Williamson & van der Mark (1997) confirmed as direct precursor — exact α-π-Helix correspondence
+3. Lepton writhe: √(m) ∝ |w| confirmed (|w|=0,14,59); pure torus knot Wr fails
+4. Koide fixed-point: NO fixed-point exists — Q(μ) runs away from 2/3 monotonically
+5. Vortex tension: κ = 0.525 MeV/crossing², self-consistent across generations
+6. Gauge bosons: m_W/m_Z = cos(θ_W) from writhe projection (0.53% offset)
+7. Higgs: Lk = 428 soliton; top condensate m_H ≈ m_t/√2 (2.4% err)
+8. Information ladder: S_e=0 → S_t=405 bits; Wheeler "it from bit" formalized
+9. Three-framework convergence: BT (2005) + Gersten (2013) + α-π-Helix (2026)
+10. Zenodo v1.4 published: DOI 10.5281/zenodo.21424990
 
 **Revision History:** v1.0 (61) → v1.1 (73) → v2.0 (76) → v3.0 (110) → v3.1 (135) → v3.2 (151)
 
