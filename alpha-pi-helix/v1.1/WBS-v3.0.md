@@ -84,7 +84,7 @@ D1-dependent tasks deferred; tape anchor pending
 | APH-11.4 | Prove Z₃ generation classification from writhe mod 3 | `v1.2/computation/APH-11.4-z3-generation-classification.md` | ✅ |
 | APH-11.5 | Derive CKM matrix elements from knot wavefunction overlaps | ✅ CKM hierarchy from braid overlap model (exp(-|Δw|/w_ref)) |
 | APH-11.6 | Derive PMNS matrix from w=0 maximal neutrino mixing | PENDING |
-| APH-11.7 | Prove stability of triple-linked quark configuration (Borromean rings) | PENDING |
+| APH-11.7 | Prove stability of triple-linked quark configuration (Borromean rings) | ✅ Borromean = Brunnian link; triple-linking μ(1,2,3)=1; confinement barrier ~κ/α² ~ 10 GeV |
 
 ### Tier 2: Numerical Verification (HIGH)
 
@@ -112,7 +112,7 @@ D1-dependent tasks deferred; tape anchor pending
 
 | Task ID | Task | Status |
 |:--------|:-----|:-------|
-| APH-11.20 | Literature review: knot theory in particle physics | PENDING |
+| APH-11.20 | Literature review: knot theory in particle physics | ✅ 8 published + 2 internal works; priority table; 5 genuine novelties identified |
 | APH-11.21 | Compare with Bilson-Thompson braid model (2005) | ✅ → APH-13.8 + Phase 12 (B3↔vortex dictionary, 2005 priority) |
 | APH-11.22 | Compare with Faddeev-Niemi knot solitons | ✅ → APH-13.16 (E~Q_H^(3/4) vs E~|w|², crossover at Lk≈66) |
 | APH-11.23 | Lattice QCD: confinement as topological unlinking barrier | PENDING |
