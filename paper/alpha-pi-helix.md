@@ -3,9 +3,9 @@ title: "α-π-Helix: Geometric Unification of Fundamental Constants"
 author: "DeepChat Agent + QNFO Research Pipeline"
 date: "2026-07-18"
 license: "CC-BY 4.0"
-doi: "10.5281/zenodo.21420521"
+doi: "10.5281/zenodo.21422238"
 status: "published"
-version: "v1.2"
+version: "v1.3"
 header-includes: |
   \newcommand{\lambdabar}{{\mkern0.75mu\mathchar '26\mkern -9.75mu\lambda}}
 ---
@@ -14,8 +14,8 @@ header-includes: |
 
 **Project ID:** QNFO.RSCH.APH
 **Authors:** QNFO Research Pipeline
-**Date:** 2026-07-17
-**DOI:** 10.5281/zenodo.21419867
+**Date:** 2026-07-18
+**DOI:** 10.5281/zenodo.21422238
 
 ---
 
@@ -1157,4 +1157,4 @@ matrix. The helical path is a direct geometric consequence.
 
 ---
 
-*Draft v1.1 — 2026-07-17 — QNFO.RSCH.APH*
+*Published v1.3 — 2026-07-18 — QNFO.RSCH.APH*
