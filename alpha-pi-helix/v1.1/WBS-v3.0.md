@@ -70,7 +70,7 @@ D1-dependent tasks deferred; tape anchor pending
 
 ## Phase 11: Particle Zoo Resolution — Topology & Number Theory (NEW v3.1)
 **Framework:** [v1.2/particle-zoo-topology-number-theory.md](../v1.2/particle-zoo-topology-number-theory.md)
-**Duration:** 3-4 sessions | **Status:** ACTIVE (14/25 complete — 4 foundational + 6 superseded by Phase 13 + 4 new)
+**Duration:** 3-4 sessions | **Status:** ACTIVE (16/25 complete — 4 foundational + 6 superseded + 6 new)
 
 **Thesis:** Every Standard Model particle corresponds to a distinct topological equivalence class of knotted/linked Compton vortex configurations. Quantum numbers (charge, color, spin, generation) are topological invariants. Mass hierarchies follow from topological complexity (crossing number × knot prime factors).
 
