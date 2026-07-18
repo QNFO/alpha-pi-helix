@@ -154,8 +154,74 @@ D1-dependent tasks deferred; tape anchor pending
 4. PMNS/CKM dichotomy: w=0 → democratic mixing vs. w=+1 → hierarchical mixing
 5. Topological → Quantum Number dictionary: complete mapping established
 
-**Revision History:** v1.0 (61) → v1.1 (73) → v2.0 (76) → v3.0 (110) → v3.1 (135)
+---
+
+## Phase 13: Universal Vortex Particle Model
+**Duration:** 1–2 sessions | **Status:** ACTIVE (research note complete, 0/10 tasks)
+**Trigger:** Williamson & van der Mark (1997) — all SM particles as confined-photon vortex configurations
+**Dependencies:** Phase 11 (Falsification), Phase 12 (Bilson-Thompson Comparison)
+**Thesis:** ALL Standard Model particles are different topological vortex/helicon configurations of the same fundamental pattern: a photon confined to a toroidal/helical path. Quantum numbers = topological invariants of the vortex configuration.
+
+### 13.1: Vortex Writhe ↔ Particle Mass Spectrum
+
+| Task ID | Task | Deliverable | Status |
+|:--------|:-----|:------------|:-------|
+| APH-13.1 | Compute vortex writhe spectrum for all charged leptons (e, μ, τ) | Lepton writhe spectrum: m = κ·Wr² | PENDING |
+| APH-13.2 | Compute open-strand vortex writhe for all quark masses | Quark writhe spectrum with open-strand correction | PENDING |
+| APH-13.3 | Derive neutrino mass upper bound from pure-twist (writhe=0) configuration | m_ν bound from residual writhe | PENDING |
+| APH-13.4 | Fit vortex tension κ from lepton mass ladder | κ value + uncertainty | PENDING |
+
+### 13.2: Gauge Bosons from Vortex Topology
+
+| Task ID | Task | Deliverable | Status |
+|:--------|:-----|:------------|:-------|
+| APH-13.5 | Derive m_W/m_Z = cos(θ_W) from vortex twist-writhe projection | Geometric Weinberg angle derivation | PENDING |
+| APH-13.6 | Classify W⁺ (2-strand), Z⁰ (3-strand neutral), γ (massless excitation) in vortex framework | Gauge boson-vortex dictionary | PENDING |
+| APH-13.7 | Higgs as topological soliton: compute m_H from vortex writhe energy minimum | m_H prediction (target: 125 GeV) | PENDING |
+
+### 13.3: Braid-Vortex Correspondence
+
+| Task ID | Task | Deliverable | Status |
+|:--------|:-----|:------------|:-------|
+| APH-13.8 | Map 3-strand vortex linking to Bilson-Thompson B₃ braid group | Braid-vortex dictionary document | PENDING |
+| APH-13.9 | Verify Chester et al. (2025) SU(3)×U(1) weight lattice compatibility | Compatibility proof sketch | PENDING |
+| APH-13.10 | Derive color confinement as vortex unlinking barrier (topological energy gap) | Confinement ≈ topological obstruction to strand separation | PENDING |
+
+### 13.4: Information-Theoretic Framework
+
+| Task ID | Task | Deliverable | Status |
+|:--------|:-----|:------------|:-------|
+| APH-13.11 | Compute information content S = log(Ω_writhe) for each SM particle | Information ladder table | PENDING |
+| APH-13.12 | Formalize "confined-photon bit" → emergent spacetime (pre-geometric → geometric) | Wheeler "it from bit" formalization | PENDING |
+| APH-13.13 | Write Phase 13 synthesis paper | `universal-vortex-particle-model.md` | ✅ COMPLETE (v1.0) |
+
+### 13.5: Literature Synthesis
+
+| Task ID | Task | Deliverable | Status |
+|:--------|:-----|:------------|:-------|
+| APH-13.14 | Locate and analyze full Williamson & van der Mark (1997) paper | Key parameter extraction | PENDING |
+| APH-13.15 | Compare vortex-writhe mass spectrum with Gersten (2013) van Kampen topological model | Cross-framework comparison | PENDING |
+| APH-13.16 | Faddeev-Niemi knot solitons as alternative vortex parameterization | Comparison note | PENDING |
 
 ---
 
-*WBS v3.1 — 2026-07-18 — QNFO.RSCH.APH*
+## Summary Statistics v3.2
+
+| Metric | v3.1 | v3.2 | Change |
+|:-------|:-----|:-----|:-------|
+| Total Phases | 12 | 13 | +1 |
+| Total Tasks | 135 | 151 | +16 |
+| Tasks Complete | ~60 | ~61 | +1 |
+| Tasks Pending | ~75 | ~90 | +15 |
+
+**Key Results (v3.2):**
+1. Universal Vortex Particle Model synthesis: Williamson (1997) + Bilson-Thompson (2005) + α-π-Helix (2026) unified
+2. Particle-Vortex Dictionary: complete mapping of all SM particles to vortex writhe/twist/linking parameters
+3. Information-theoretic "confined photon bit" framework formalized
+4. 16 new tasks across 5 sub-phases (writhe-mass, gauge bosons, braid-vortex correspondence, information theory, literature)
+
+**Revision History:** v1.0 (61) → v1.1 (73) → v2.0 (76) → v3.0 (110) → v3.1 (135) → v3.2 (151)
+
+---
+
+*WBS v3.2 — 2026-07-18 — QNFO.RSCH.APH*
